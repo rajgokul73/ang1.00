@@ -6,8 +6,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.gradientbg{
+.containerbg{
     background-image: linear-gradient(to right, rgba(187, 29, 29, 0), rgb(68, 61, 61));
+    padding: 30px;
 }
 .mat-radio-button ~ .mat-radio-button {
   margin-left: 16px;
