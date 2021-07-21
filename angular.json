@@ -24,9 +24,13 @@
               "src/assets"
             ],
             "styles": [
+              
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+
+            ]
           },
           "configurations": {
             "production": {
@@ -88,6 +92,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pensionportal"
+    }
+  },
+  "defaultProject": "pensionportal",
+  "cli": {
+    "analytics": "9b3348e1-2cba-4c0b-82d0-8c2c76ad4f7c"
+  }
 }
